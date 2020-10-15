@@ -100,10 +100,6 @@ setTimeout(function start (){
   // Lightbox init
 $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
 
-
-
-
-
 function send() {
     var link = 'mailto:florin.necula95@yahoo.com?subject=Message from '
     +document.getElementById('mailFrom').value
