@@ -99,8 +99,7 @@ setTimeout(function start (){
 
   // Lightbox init
 $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
-// Filter init
-// $('.filter-lightbox').mdbFilter();
+
 
 
 
