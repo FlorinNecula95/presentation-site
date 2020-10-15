@@ -30,22 +30,22 @@ $(document).ready(function(){
 /* Filter */
 
 $("#allFilter").on("click", function(){
-    $(".projectsRow").find(".col-4").show();
+    $(".projectsRow").find(".col-md-4").show();
  });
 $("#bootstrapFilter").on("click", function(){
-    $('.projectsRow .col-4').not('.bootstrap').hide();
+    $('.projectsRow .col-md-4').not('.bootstrap').hide();
     $('.projectsRow .bootstrap').show().removeAttr("data-aos");
  });
 $("#cssFilter").on("click", function(){
-    $('.projectsRow .col-4').not('.css').hide();
+    $('.projectsRow .col-md-4').not('.css').hide();
     $('.projectsRow .css').show().removeAttr("data-aos");
  });
 $("#javaScriptFilter").on("click", function(){
-    $('.projectsRow .col-4').not('.javaScript').hide();
+    $('.projectsRow .col-md-4').not('.javaScript').hide();
     $('.projectsRow .javaScript').show().removeAttr("data-aos");
  });
 $("#vueJSFilter").on("click", function(){
-    $('.projectsRow .col-4').not('.vueJS').hide();
+    $('.projectsRow .col-md-4').not('.vueJS').hide();
     $('.projectsRow .vueJS').show().removeAttr("data-aos");
  });
 
@@ -100,7 +100,7 @@ setTimeout(function start (){
   // Lightbox init
 $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
 // Filter init
-$('.filter-lightbox').mdbFilter();
+// $('.filter-lightbox').mdbFilter();
 
 
 
