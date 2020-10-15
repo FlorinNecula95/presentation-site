@@ -15,6 +15,7 @@ section#home {
     color: #fff;
     height: calc(100vh + 53px);
     padding: 0 10px;
+    background: #1b242f;
 }
 
 section#home .text {
