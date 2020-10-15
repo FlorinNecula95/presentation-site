@@ -15,7 +15,7 @@ section#home {
     color: #fff;
     height: calc(100vh + 53px);
     padding: 0 10px;
-    background: #1b242f;
+    background: #1b242f; 
 }
 
 section#home .text {
@@ -850,3 +850,22 @@ footer ul li:nth-child(4) a:before {
 
 .grid-item--width2 { width: 40%; }
 .grid-item--height2 { height: 200px; }
+.navbar-collapse.show{
+    background-color: #1b242f
+}
+
+@media (max-width: 430px) {
+    footer ul li a {    
+        width: 60px;
+        height: 60px;
+    }
+    footer ul li a .icon {
+        top: -10px;
+    }
+    footer ul {
+        max-width: 100%;
+    }
+    .attributesContainer{
+        max-width: 100%;
+    }
+}
